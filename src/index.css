@@ -1,0 +1,36 @@
+:root {
+	max-width: 100dvw;
+	height: 100dvw;
+	/* place-content: center; */
+	text-align: center;
+	margin: 0;
+
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	background-color: lightblue;
+	color-scheme: light dark;
+	color: white;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+#app-container {
+	background-image: url("https://t3.ftcdn.net/jpg/05/69/52/04/240_F_569520498_VHHMkoxu6gP6ETqmPRiLKljy6rQhUHhn.jpg");
+	/* Full height */
+	height: 100dvh;
+	width: auto;
+	border-radius: 20px;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: lightblue;
+	margin: 2rem;
+	padding: 2rem;
+	width: 50vw;
+}
