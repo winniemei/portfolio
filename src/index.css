@@ -43,3 +43,10 @@
 h1 {
 	font-size: 3rem;
 }
+
+#bio {
+	font-size: 2rem;
+	background: rgb(1, 61, 69);
+	opacity: 60%;
+	border-radius: 20px;
+}
