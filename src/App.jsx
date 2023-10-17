@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import MainSection from "./MainSection";
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -7,7 +8,7 @@ function App() {
 	return (
 		<>
 			<div id="app-container">
-				<h1>Winnie's Portfolio Site</h1>
+				<MainSection />
 			</div>
 		</>
 	);
